@@ -99,7 +99,7 @@ const exportToPDF = () => {
     
     pdf.setFont('helvetica', 'normal');
     pdf.setFontSize(10);
-    pdf.text(`Categoría: ${antipattern.tabName}`, margin + 5, yPosition);
+    pdf.text(`Category: ${antipattern.tabName}`, margin + 5, yPosition);
     yPosition += 12;
 
   pdf.setFont('helvetica', 'bold');

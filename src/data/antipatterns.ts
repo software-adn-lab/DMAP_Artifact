@@ -215,45 +215,45 @@ export const managementMappings: Record<string, ManagementAntipattern[]> = {
   'reporte-estatus': [
     {
       name: 'Glass Case Plan',
-      justification: 'La reunión pierde su valor real, como un plan que se sigue pero que no proporciona un sentido de la visión ni identifica las desviaciones',
+      justification: 'The meeting loses its real value, like a plan that is followed but does not provide a sense of vision or identify deviations',
       relationshipStrength: 'L'
     }
   ],
   'sin-rutina': [
     {
       name: 'Road to Nowhere',
-      justification: 'La falta de consistencia en las reuniones del Daily Scrum, la falta de dirección y planificación provocan confusión y desalineación en el equipo.',
+      justification: 'The lack of consistency in Daily Scrum meetings, lack of direction and planning cause confusion and misalignment in the team.',
       relationshipStrength: 'P'
     }
   ],
   'limite-tiempo': [
     {
       name: 'Project mismanagement',
-      justification: 'La extensión prolongada de la Daily Scrum refleja una incorrecta gestión del tiempo y del foco.',
+      justification: 'The prolonged extension of the Daily Scrum reflects poor time and focus management.',
       relationshipStrength: 'L'
     }
   ],
   'gran-tamano': [
     {
       name: 'Fire Drill',
-      justification: 'La acumulación excesiva de ítems implica que se llegará a un punto crítico donde el equipo no podrá manejar la carga de trabajo.',
+      justification: 'The excessive accumulation of items implies reaching a critical point where the team will not be able to handle the workload.',
       relationshipStrength: 'F'
     },
     {
       name: 'Inflexible Plan',
-      justification: 'La acumulación excesiva de ítems implica rigidez y caos tal como ocurre cuando no se hacen ajustes en la planificación.',
+      justification: 'The excessive accumulation of items implies rigidity and chaos, just as occurs when adjustments are not made to planning.',
       relationshipStrength: 'F'
     }
   ],
   'problemas-obsoletos': [
     {
       name: 'Glass Case Plan',
-      justification: 'La falta de actualización del backlog implica un plan que no se adapta a las necesidades actuales, como un plan que no se revisa.',
+      justification: 'The lack of backlog updates implies a plan that does not adapt to current needs, like a plan that is not reviewed.',
       relationshipStrength: 'L'
     },
     {
       name: 'Road to Nowhere',
-      justification: 'La falta de actualización del backlog implica una pérdida de control y una mayor desorientación.',
+      justification: 'The lack of backlog updates implies a loss of control and greater disorientation.',
       relationshipStrength: 'L'
     }
   ],
@@ -274,31 +274,31 @@ export const managementMappings: Record<string, ManagementAntipattern[]> = {
   'poca-planificacion': [
     {
       name: 'Road to Nowhere',
-      justification: 'La falta de planificación útil ocasiona descontrol, dependencia de un plan no revisado e incertidumbre.',
+      justification: 'The lack of useful planning causes loss of control, dependence on an unreviewed plan, and uncertainty.',
       relationshipStrength: 'F'
     },
     {
       name: 'Glass Case Plan',
-      justification: 'La falta de planificación útil genera un plan que no se adapta a las necesidades del equipo, como un plan que no se revisa.',
+      justification: 'The lack of useful planning generates a plan that does not adapt to the team\'s needs, like a plan that is not reviewed.',
       relationshipStrength: 'F'
     }
   ],
   'sin-objetivo': [
     {
       name: 'Road to Nowhere',
-      justification: 'La falta de propósito en el Sprint muestra la ausencia de visión y objetivos claros.',
+      justification: 'The lack of purpose in the Sprint shows the absence of vision and clear objectives.',
       relationshipStrength: 'L'
     }
   ],
   'asuntos-pendientes': [
     {
       name: 'Fire Drill',
-      justification: 'La acumulación de trabajo sin cierre ni discusión acabará en descontrol.',
+      justification: 'The accumulation of work without closure or discussion will end in loss of control.',
       relationshipStrength: 'L'
     },
     {
       name: 'Project Mismanagement',
-  justification: 'The accumulation of work indicates poor management, as a project that is not properly controlled.',
+      justification: 'The accumulation of work indicates poor management, as a project that is not properly controlled.',
       relationshipStrength: 'L'
     }
   ],
