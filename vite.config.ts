@@ -10,8 +10,7 @@ export default defineConfig(({ mode }) => ({
   // When deploying to GitHub Pages the repo path can change; using a relative
   // base ('./') for production ensures assets are referenced relative to the
   // generated `index.html`, which avoids blank pages caused by incorrect paths.
-  base: mode === 'production' ? './' : '/',
-  server: {
+base: '/DMAP_Artifact/',  server: {
     host: "::",
     port: 8080,
   },
